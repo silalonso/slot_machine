@@ -10,7 +10,7 @@ h1 {
 .cuadro{
     border:2px solid orange;
     width: 300px;
-    height: 300px;
+    /*height: 300px;*/
     border-radius: 20px;
 }
 
@@ -30,3 +30,16 @@ h1 {
 
 
 
+@media all and (max-width: 768px) {
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .cuadro {
+        max-width: 50%;
+        max-height: 50%;
+    }
+    .boton{
+        font-size: 45px;
+    }
+  }
