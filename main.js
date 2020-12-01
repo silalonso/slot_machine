@@ -71,7 +71,6 @@ function generaNumero() {
           break;
         case 2 :
             document.getElementById("random3").innerHTML = '<img src="./images/cebolla.png">';
-          
           break;
         case 3 :
             document.getElementById("random3").innerHTML = '<img src="./images/pepino.png">';
@@ -85,14 +84,7 @@ function generaNumero() {
         case 6:
             document.getElementById("random3").innerHTML = '<img src="./images/zanahoria.png">';
           break;
-        default:
-          console.log('Lo lamentamos, por el momento no disponemos de ' + expr + '.');
+        
       }
     
-if (rand1= 2) {
-    
-}else {
-    
-}
-    console.log("me han clickado");
 }

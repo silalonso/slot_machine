@@ -2,34 +2,31 @@ h1 {
     text-align: center;
 }
 
-.boton {
-    border:2px solid red;
+.frontal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cuadro{
+    border:2px solid orange;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.botones {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 30px 15px 45px 15px;
 }
-.frontal {
-    border:2px solid blue;
-    /*max-width: 800px;*/
-    display: flex;
-    justify-content: space-around;
-}
-.cuadro1{
-    border:2px solid orange;
-    width: 300px;
 
+.boton{
+    font-size: 100px;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 20px;
 }
-.cuadro2{
-    border:2px solid orange;
-    width: 300px;
 
-}
-.cuadro3{
-    border:2px solid orange;
-    width: 300px;
 
-}
-p{
-    size: 100px;
-}
+
